@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.bg-img{
+  background: url(../img/bg.png);
+  height: 30rem;
+}
+
+.logo{
+  height: 35rem;
+  width: 35rem;
+  position: absolute;
+  left: 42rem;
+}
+
+.color-black{
+  color: #181818;
+  font-size: 2rem;
+}
+
+.color-primary{
+  font-size: 4.4rem ;
+  color: #FC4E17;
+}
+
+.flex-contain{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Media Queries */
+
+@media(max-width: 1200px) and (min-width:  769px){
+  .bg-img{
+    height: 28rem;
+  }
+
+  .logo{
+    height: 28rem;
+    width: 27rem;
+    left: 37rem;
+  }
+
+  .color-primary{
+    font-size: 4rem;
+  }
+}
+
+@media(max-width: 768px) and (min-width: 501px){
+  .bg-img{
+    height: 25rem;
+  }
+
+  .logo{
+    height: 18rem;
+    width: 17rem;
+    left: 27rem;
+  }
+
+  .color-primary{
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen  and (max-width: 500px){
+  .bg-img{
+    background: url(../img/Rectangle\ 75.png) no-repeat;
+    height: 15rem;
+    max-width: 100%;
+  }
+
+  .logo{
+    height: 12rem;
+    width: 13rem;
+    left: 10rem;
+  }
+
+  .text-content{
+    margin-top: 6.5rem;
+    margin-bottom: 0;
+  }
+
+  .color-primary{
+    font-size: 2rem;
+  }
+
+  .color-black{
+    font-size: 1rem;
+  }
+}
+
+@media(max-height: 500px){
+  .bg-img{
+    height: 25rem;
+  }
+
+  .logo{
+    height: 18rem;
+    width: 17rem;
+    left: 27rem;
+  }
+
+  .color-primary{
+    font-size: 2.5rem;
+  }
+}
